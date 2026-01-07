@@ -1,0 +1,36 @@
+Projet Trivia Real-Time - EPSI
+
+Ce projet est un jeu de quiz en temps réel utilisant Vite, React, Node.js, Socket.io et SQLite.
+
+Installation
+
+Extraire les fichiers dans un dossier nommé trivia-project.
+
+Ouvrir un terminal dans ce dossier.
+
+Installer les dépendances :
+
+npm install
+
+
+Lancement
+
+Démarrer le serveur (Backend) :
+
+node server.js
+
+
+Démarrer le client (Frontend) dans un autre terminal :
+
+npm run dev
+
+
+Ouvrez l'URL indiquée par Vite (souvent http://localhost:5173).
+
+Structure des fichiers
+
+server.js : Serveur Node.js avec Socket.io et SQLite.
+
+src/App.jsx : Application React avec Tailwind CSS.
+
+package.json : Liste des dépendances.
